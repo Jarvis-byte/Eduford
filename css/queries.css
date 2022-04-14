@@ -1,0 +1,24 @@
+@media (max-width: 700px) {
+  .text-box h1 {
+    font-size: 2rem;
+  }
+
+  .main-nav-list li {
+    margin-bottom: 20px;
+    padding: 1.2rem;
+  }
+  .main-nav-list li:first-child {
+    margin-top: 50px;
+  }
+  .main-nav-list {
+    display: block;
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+  }
+}

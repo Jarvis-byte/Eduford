@@ -7,6 +7,14 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  overflow-x: hidden;
+}
 .header {
   min-height: 100vh;
   width: 100%;
@@ -25,6 +33,7 @@ html {
 .logo-img {
   width: 15rem;
 }
+
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -64,7 +73,38 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 4.4rem;
+}
+.text-box h1 {
+  font-size: 6.2rem;
+  letter-spacing: -1.5px;
+  line-height: 1.05;
+}
+.text-box p {
+  font-size: 1.6rem;
+  margin: 3.2rem;
+  line-height: 1.6;
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 9px;
+  padding: 2.4rem 1.3rem;
+  font-size: 2rem;
+  background: transparent;
+  position: relative;
+}
+
+.btn:hover {
+  border: 1px solid #fff;
+  background-color: #f44336;
+  transition: 0.3s;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #fff;
 }
