@@ -44,4 +44,8 @@
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
+
+  .row {
+    flex-direction: column;
+  }
 }
