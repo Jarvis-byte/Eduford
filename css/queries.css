@@ -48,4 +48,8 @@
   .row {
     flex-direction: column;
   }
+  .testimonial-col img {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
 }
