@@ -1,6 +1,15 @@
 @media (max-width: 700px) {
   .text-box h1 {
-    font-size: 2rem;
+    font-size: 5rem;
+  }
+  .text-box {
+    top: 50%;
+  }
+  .text-box p {
+    margin-top: 5rem;
+  }
+  .text-box .btn {
+    margin-top: 5rem;
   }
   .btn-mobile-nav {
     display: block;

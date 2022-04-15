@@ -178,7 +178,7 @@ p {
 }
 .course-col {
   flex-basis: 31%;
-  background: #fff3f3;
+  background: rgb(255, 243, 243);
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -220,7 +220,7 @@ h3 {
   transition: 0.5s;
 }
 .layer:hover {
-  background: rgba(226, 0, 0, 0.7);
+  background: rgba(255, 243, 243, 0.7);
 }
 
 .layer h3 {
